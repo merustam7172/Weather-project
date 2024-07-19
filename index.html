@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rakkas&family=Tauri&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="search_box">
+                <i class="fa-solid fa-location-dot"></i>
+                <input type="text" placeholder="Enter Your Location">
+                <button  class="fa-solid fa-magnifying-glass" ></button>
+            </div>
+
+            <div class="weathe-shell">
+                <div class="weather">
+                    <img src="/images/cloud.png" alt="">
+                    <p class="temperature">16 <span>°C</span></p>
+                    <p class="description">Broken Clouds</p>
+                </div>
+            </div>
+          
+            <div class="weather-detail-shell">
+                <div class="weather-detail">
+                    <div class="Humidity">
+                        <i class="fa-solid fa-water"></i>
+                        <div class="humidity-div">
+                            <div class="humidity-data">
+                                <p class="humidity_percentage">0%</p>
+                                <p>Humidity</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+    
+                    <div class="Wind-speed-detail">
+                        <div class="wind-speed">
+                            <i class="fa-solid fa-wind"></i>
+                            <div class="windSpeed-data">
+                                <p class="speed">0<span>Km/h</span></p>
+                                <p>Wind Speed</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+
+            <!-- error not found image -->
+            <div class="not-found-shell">
+                <div class="not_found">
+                    <img src="/images/404.png" alt="">
+                    <p>Oops! Location not found!</p>
+                </div>
+            </div>
+            
+
+
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
